@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  margin: auto;
+  width: 70%;
+  background-color: aqua;
+}
+.main-section .container {
+  margin: 30px 0;
+  background-color: #ddd;
+  text-align: center;
+  border: 2px solid gray;
+  box-shadow: 3px 10px 10px #ffffff;
+}
+.main-section .container .input-parent {
+  padding: 30px;
+  align-items: center;
+}
+.main-section .container .input-parent .mylabel {
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  padding: 20px 0;
+  width: 300px;
+  margin: auto;
+  border-radius: 4px;
+  background-color: tomato;
+  text-align: center;
+  cursor: pointer;
+}
+.main-section .container .input-parent input[type=file] {
+  display: none;
+}
+.main-section .container .input-parent p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.main-section .container .input-parent p {
+  text-align: center;
+  margin: 20px;
+}
+
+#images {
+  width: 80%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+figure {
+  width: 40%;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
